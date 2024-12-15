@@ -19,7 +19,7 @@ Incluye ejemplos de:
 
 ## Requisitos
 
-SE recomienda usar un editor de LaTeX como:
+Se recomienda usar un editor de LaTeX como:
 - [Overleaf](https://www.overleaf.com/) (editor en línea)
 - [VS Code](https://code.visualstudio.com/) con la extensión **LaTeX Workshop** (editor local)
 
