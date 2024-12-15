@@ -1,0 +1,23 @@
+\documentclass{article}
+
+% Paquetes necesarios
+\usepackage[spanish]{babel}   % Para el idioma español
+\usepackage{csquotes}         % Para el formato de citas en español
+\usepackage{url}              % Para manejar URLs en la bibliografía
+
+% Comienza el documento
+\begin{document}
+
+\title{Ejemplo de Documento con Bibliografía}
+\author{Autor del Documento}
+\date{\today}
+\maketitle
+
+Este es un ejemplo de cómo citar un artículo académico \cite{einstein1905}. También podemos citar un sitio web \cite{icpan} y un libro famoso \cite{knuth1997}.
+
+% Inserta la bibliografía
+\bibliographystyle{plain}  % Estilo de la bibliografía (puedes cambiar a otro estilo si prefieres)
+\bibliography{Curso/bibliografía/bib}  % Nombre del archivo .bib (sin extensión)
+
+\end{document}
+

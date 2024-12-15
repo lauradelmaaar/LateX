@@ -1,0 +1,44 @@
+\documentclass[10pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage{eurosym}
+
+
+
+\begin{document}
+
+\begin{tabular}{|l|r|r|} \hline
+    Item    & Qty   & Unit \euro   \\\hline
+    Widget  & 1     & 199,99    \\
+    Gadget  & 4     & 35,45     \\
+    Cable   & 2     & 4,95      \\\hline
+\end{tabular} 
+
+
+
+
+% www.tablesgenerator.com
+
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Concepto} & \textbf{Coste}           & \textbf{Coste acumulado} \\ \hline
+Picos             & {100.000} &                          \\ \cline{3-3} 
+Palas             &                          &                          \\ \cline{3-3} 
+Azadores          &                          & 1.000.000                \\ \hline
+Frailes           &                          &                          \\ \cline{3-3} 
+Monjas            & 150                      &                          \\ \cline{3-3} 
+Pobres            &                          & 100.150                  \\ \hline
+Guantes           & 100                      & 100.410                  \\ \hline
+Campanas          & 160                      & 100.410                  \\ \hline
+Pequeñeces        & 100.000                  & 200.410                  \\ \hline
+\end{tabular}
+\end{table}
+
+\end{document}
+
